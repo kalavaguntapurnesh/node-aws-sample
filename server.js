@@ -19,7 +19,7 @@ const requestListener = (req, res) => {
     const user = users.find(({ _id }) => id === _id);
     if (!user) {
       res.writeHead(404, { "Content-Type": "application/json" });
-      res.write(JSON.stringify({ error: "Could not find requested resource" }));
+      res.write(JSON.stringify({ error: "Could not find requested resource here." }));
       res.end();
     } else {
       res.writeHead(200, { "Content-Type": "application/json" });
