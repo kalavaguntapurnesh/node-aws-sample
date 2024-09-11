@@ -13,7 +13,7 @@ const requestListener = (req, res) => {
     const { id } = parsedUrl.query;
     if (!id) {
       res.writeHead(400, { "Content-Type": "application/json" });
-      res.write(JSON.stringify({ error: "User Id not provided correctly" }));
+      res.write(JSON.stringify({ error: "User Id is not provided correctly" }));
       res.end();
     }
     const user = users.find(({ _id }) => id === _id);
