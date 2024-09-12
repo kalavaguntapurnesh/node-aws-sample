@@ -7,7 +7,7 @@ exports.users = [
     eyeColor: "green",
     name: "Sri Krishna",
     gender: "male",
-    email: "hardingtaylor@lexicondo.com",
+    email: "krishna@sri.com",
     phone: "+1 (839) 440-2917",
     address: "686 Harman Street, Reno, New Jersey, 5152",
     about:
